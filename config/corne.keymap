@@ -8,24 +8,6 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    macros {
-        spotlight: spotlight {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&tog 0 &kp>, <&macro_press>, <&macro_press>;
-
-            label = "SPOTLIGHT";
-        };
-
-        alt_delete: alt_delete {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&alt_delete>, <&macro_press>, <&kp>;
-
-            label = "ALT_DELETE";
-        };
-    };
-
     combos {
         compatible = "zmk,combos";
 
@@ -37,14 +19,6 @@
         del_line {
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <38 40>;
-        };
-    };
-
-    behaviors {
-        new_behavior: new_behavior {
-            compatible = "zmk,behavior-mouse-key-press";
-            label = "NEW_BEHAVIOR";
-            #binding-cells = <1>;
         };
     };
 
