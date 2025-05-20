@@ -20,6 +20,11 @@
             bindings = <&kp LC(BACKSPACE)>;
             key-positions = <38 40>;
         };
+
+        nav_apps {
+            bindings = <&kp LC(TAB)>;
+            key-positions = <24 38>;
+        };
     };
 
     keymap {
