@@ -28,7 +28,7 @@
 
         thumb_tab {
             bindings = <&kp TAB>;
-            key-positions = <39 12>;
+            key-positions = <39 38>;
         };
 
         thumb_del {
