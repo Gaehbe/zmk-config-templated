@@ -30,6 +30,16 @@
             bindings = <&kp TAB>;
             key-positions = <39 12>;
         };
+
+        thumb_del {
+            bindings = <&kp DELETE>;
+            key-positions = <12 36>;
+        };
+
+        right_arrow {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <12 23>;
+        };
     };
 
     keymap {
