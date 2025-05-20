@@ -38,7 +38,7 @@
 
         right_arrow {
             bindings = <&kp RIGHT_ARROW>;
-            key-positions = <12 23>;
+            key-positions = <23 24>;
         };
     };
 
