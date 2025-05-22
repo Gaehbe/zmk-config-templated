@@ -23,7 +23,7 @@
 
         nav_apps {
             bindings = <&kp LC(TAB)>;
-            key-positions = <24 38>;
+            key-positions = <38 35>;
         };
 
         thumb_tab {
