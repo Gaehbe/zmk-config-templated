@@ -35,6 +35,21 @@
             bindings = <&kp DELETE>;
             key-positions = <12 11>;
         };
+
+        nav_desktops {
+            bindings = <&kp LC(NUMBER_1)>;
+            key-positions = <24 39>;
+        };
+
+        nav_desktops2 {
+            bindings = <&kp LC(NUMBER_2)>;
+            key-positions = <24 40>;
+        };
+
+        nav_desktops3 {
+            bindings = <&kp LC(NUMBER_3)>;
+            key-positions = <24 41>;
+        };
     };
 
     keymap {
