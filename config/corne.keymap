@@ -64,10 +64,10 @@
 
             display-name = "0";
             bindings = <
-&mt ESCAPE TAB    &kp Q  &kp W  &kp E  &kp R  &kp T        &kp Y      &kp U              &kp I         &kp O    &kp P     &kp BSPC
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D  &kp F  &kp G        &kp H      &kp J              &kp K         &kp L    &kp SEMI  &kp APOS
-&kp LEFT_CONTROL  &kp Z  &kp X  &kp C  &kp V  &kp B        &kp N      &kp M              &kp COMMA     &kp DOT  &kp FSLH  &kp LEFT_COMMAND
-                                &mo 2  &mo 1  &kp ENTER    &kp SPACE  &kp LA(BACKSPACE)  &kp LEFT_ALT
+&mt ESCAPE TAB    &kp Q  &kp W  &kp E         &kp R  &kp T        &kp Y      &kp U  &kp I              &kp O    &kp P     &kp BSPC
+&kp LEFT_SHIFT    &kp A  &kp S  &kp D         &kp F  &kp G        &kp H      &kp J  &kp K              &kp L    &kp SEMI  &kp APOS
+&kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp V  &kp B        &kp N      &kp M  &kp COMMA          &kp DOT  &kp FSLH  &kp LEFT_COMMAND
+                                &kp LEFT_ALT  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp LA(BACKSPACE)
             >;
         };
 
@@ -96,10 +96,10 @@
 
             display-name = "2";
             bindings = <
-&trans  &none     &none        &none     &none         &none     &none   &none            &none      &none          &none      &trans
-&trans  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR    &none     &none   &kp KP_EQUAL     &kp UNDER  &kp AMPERSAND  &kp TILDE  &none
-&trans  &none     &none        &none     &kp KP_SLASH  &none     &none   &kp KP_MULTIPLY  &trans     &trans         &none      &trans
-                               &trans    &trans        &trans    &trans  &trans           &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7           &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0  &trans
+&trans  &kp EXCL      &kp AT_SIGN   &kp HASH      &kp DOLLAR    &none           &none         &kp UNDER        &kp EQUAL     &kp AMPERSAND  &kp TILDE     &none
+&trans  &none         &none         &none         &kp KP_SLASH  &none           &none         &kp KP_MULTIPLY  &trans        &trans         &none         &trans
+                                    &trans        &trans        &trans          &trans        &trans           &trans
             >;
         };
 
