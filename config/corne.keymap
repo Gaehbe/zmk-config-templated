@@ -50,6 +50,11 @@
             bindings = <&kp LC(NUMBER_3)>;
             key-positions = <24 41>;
         };
+
+        enter {
+            bindings = <&kp KP_ENTER>;
+            key-positions = <12 38>;
+        };
     };
 
     keymap {
