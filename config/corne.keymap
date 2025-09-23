@@ -8,34 +8,7 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        layer3 {
-            bindings = <&tog 0>;
-            key-positions = <37 41>;
-        };
-
-        backspace_line {
-            bindings = <&kp LC(BACKSPACE)>;
-            key-positions = <38 40>;
-        };
-
-        nav_apps {
-            bindings = <&kp LC(TAB)>;
-            key-positions = <38 24>;
-        };
-
-        thumb_tab {
-            bindings = <&kp TAB>;
-            key-positions = <39 38>;
-        };
-
-        enter {
-            bindings = <&kp KP_ENTER>;
-            key-positions = <12 38>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
@@ -65,10 +38,10 @@
 
             display-name = "1";
             bindings = <
-&trans  &kp N1            &kp N2             &kp N3     &kp N4        &kp N5          &kp N6        &kp N7          &kp N8           &kp N9                &kp N0                 &kp BSPC
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH   &kp DOLLAR    &kp ASTERISK    &kp CARET     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
-&trans  &kp KP_NUMBER_0   &kp KP_SUBTRACT    &kp UNDER  &kp KP_EQUAL  &none           &kp ASTERISK  &kp KP_PLUS     &kp LESS_THAN    &kp GREATER_THAN      &kp KP_DIVIDE          &trans
-                                             &trans     &trans        &trans          &trans        &trans          &trans
+&trans  &kp N1            &kp N2             &kp N3     &kp N4        &kp N5         &kp N6        &kp N7          &kp N8           &kp N9                &kp N0                 &kp BSPC
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HASH   &kp DOLLAR    &kp PERCENT    &kp CARET     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH
+&trans  &kp EXCL          &kp KP_SUBTRACT    &kp UNDER  &kp KP_EQUAL  &none          &kp ASTERISK  &kp KP_PLUS     &kp LESS_THAN    &kp GREATER_THAN      &kp KP_DIVIDE          &trans
+                                             &trans     &trans        &trans         &trans        &trans          &trans
             >;
         };
 
@@ -81,9 +54,9 @@
 
             display-name = "2";
             bindings = <
-&trans  &kp EXCL   &kp AT       &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp EXCL   &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT             &kp COLON              &kp PIPE
-&trans  &kp TILDE  &trans       &trans    &trans      &trans         &trans          &trans          &trans        &trans                &trans                 &trans
+&trans  &kp EXCL   &kp AT       &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND   &kp ASTERISK  &kp C_VOL_DN  &kp C_VOLUME_UP  &trans
+&trans  &kp EXCL   &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT     &kp COLON        &kp PIPE
+&trans  &kp TILDE  &kp GRAVE    &trans    &trans      &trans         &trans          &trans          &trans        &trans        &trans           &trans
                                 &trans    &trans      &trans         &trans          &trans          &trans
             >;
         };
