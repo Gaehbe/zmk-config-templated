@@ -54,10 +54,10 @@
 
             display-name = "0";
             bindings = <
-&none  &kp Q           &kp W  &kp E                &kp R              &kp T      &kp Y                 &kp U            &kp I             &kp O    &kp P                 &none
-&none  &mt LEFT_ALT A  &kp S  &kp D                &mt DOLLAR F       &kp G      &kp H                 &kp J            &kp K             &kp L    &mt ESCAPE SEMICOLON  &kp SINGLE_QUOTE
-&none  &kp Z           &kp X  &kp C                &mt KP_NUMBER_0 V  &kp B      &kp N                 &kp M            &kp COMMA         &kp DOT  &kp SLASH             &none
-                              &mt LEFT_ALT ESCAPE  &lt 2 SPACE        &kp TAB    &mt LEFT_SHIFT ENTER  &lt 1 BACKSPACE  &kp LEFT_COMMAND
+&kp TAB         &kp Q           &kp W  &kp E                    &kp R              &kp T      &kp Y                 &kp U            &kp I             &kp O    &kp P                 &kp BACKSPACE
+&kp ESC         &mt LEFT_ALT A  &kp S  &kp D                    &mt DOLLAR F       &kp G      &kp H                 &kp J            &kp K             &kp L    &mt ESCAPE SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z           &kp X  &kp C                    &mt KP_NUMBER_0 V  &kp B      &kp N                 &kp M            &kp COMMA         &kp DOT  &kp SLASH             &kp ENTER
+                                       &mt LEFT_COMMAND ESCAPE  &lt 2 SPACE        &kp TAB    &mt LEFT_SHIFT ENTER  &lt 1 BACKSPACE  &kp LEFT_CONTROL
             >;
         };
 
