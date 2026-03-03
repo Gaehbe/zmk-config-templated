@@ -53,7 +53,7 @@
 
         MaximizeWindow {
             bindings = <&kp LC(LA(ENTER))>;
-            key-positions = <40 37>;
+            key-positions = <40 19 20>;
         };
     };
 
