@@ -64,7 +64,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
         };
 
@@ -72,8 +72,8 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LAYERTAP";
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            flavor = "hold-preferred";
             bindings = <&mo>, <&kp>;
         };
 
@@ -100,10 +100,10 @@
 
             display-name = "0";
             bindings = <
-&kp TAB         &kp Q               &kp W  &kp E             &kp R               &kp T             &kp Y                 &kp U            &kp I             &kp O    &kp P                      &kp BACKSPACE
-&kp ESC         &longht LEFT_ALT A  &kp S  &kp D             &kp F               &kp G             &kp H                 &kp J            &kp K             &kp L    &holdtap ESCAPE SEMICOLON  &kp SINGLE_QUOTE
-&kp LEFT_SHIFT  &kp Z               &kp X  &kp C             &kp V               &kp B             &kp N                 &kp M            &kp COMMA         &kp DOT  &kp SLASH                  &kp ENTER
-                                           &kp LEFT_COMMAND  &layertap 1 ESCAPE  &kp LEFT_SHIFT    &holdtap ENTER SPACE  &layertap 2 TAB  &kp LEFT_CONTROL
+&kp TAB         &kp Q               &kp W  &kp E                         &kp R  &kp T             &kp Y                 &kp U            &kp I             &kp O    &kp P          &kp BACKSPACE
+&kp ESC         &longht LEFT_ALT A  &kp S  &kp D                         &kp F  &kp G             &kp H                 &kp J            &kp K             &kp L    &kp SEMICOLON  &kp SINGLE_QUOTE
+&kp LEFT_SHIFT  &kp Z               &kp X  &kp C                         &kp V  &kp B             &kp N                 &kp M            &kp COMMA         &kp DOT  &kp SLASH      &kp ENTER
+                                           &holdtap LEFT_COMMAND ESCAPE  &mo 1  &kp LEFT_SHIFT    &holdtap ENTER SPACE  &layertap 2 TAB  &kp LEFT_CONTROL
             >;
         };
 
