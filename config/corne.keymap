@@ -53,7 +53,32 @@
 
         MaximizeWindow {
             bindings = <&kp LC(LA(ENTER))>;
-            key-positions = <40 19 20>;
+            key-positions = <40 20 19>;
+        };
+
+        leftThird {
+            bindings = <&kp LC(LA(D))>;
+            key-positions = <37 14>;
+        };
+
+        leftTwoThirds {
+            bindings = <&kp LC(LA(E))>;
+            key-positions = <37 14 15>;
+        };
+
+        middleThird {
+            bindings = <&kp LC(LA(F))>;
+            key-positions = <37 15>;
+        };
+
+        rightThird {
+            bindings = <&kp LC(LA(G))>;
+            key-positions = <37 16>;
+        };
+
+        rightTwoThirds {
+            bindings = <&kp LC(LA(T))>;
+            key-positions = <37 16 15>;
         };
     };
 
